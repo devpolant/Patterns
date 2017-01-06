@@ -1,5 +1,6 @@
 
 //MARK: - Client
+
 public class BridgeTest {
     
     public static func test() {

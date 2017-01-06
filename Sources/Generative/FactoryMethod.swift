@@ -1,3 +1,4 @@
+
 public class FactoryMethodTest {
     
     public static func test() {

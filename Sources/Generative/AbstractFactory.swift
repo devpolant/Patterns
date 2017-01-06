@@ -1,3 +1,4 @@
+
 public class AbstractFactoryTest {
     
     public static func test() {

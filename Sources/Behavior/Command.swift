@@ -1,7 +1,4 @@
-/*
- Invoker хранит Command, ConcreteCommand хранит Receiver.
- Client устанавливает команду Invoker-у и управляет им.
- */
+
 public class CommandTest {
     
     public static func test() {
