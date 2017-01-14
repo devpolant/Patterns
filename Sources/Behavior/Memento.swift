@@ -17,7 +17,7 @@ public class MementoTest {
     }
 }
 
-//MARK: - Ordinator
+//MARK: - Originator
 class HeroUnit {
     
     var patrons = 10

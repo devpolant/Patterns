@@ -21,6 +21,7 @@ class HouseModel {
     }
 }
 
+//MARK: - Concrete Flyweight
 class BlockHouse: HouseModel {
     override init() {
         super.init()
@@ -40,6 +41,8 @@ class BrickHouse: HouseModel {
     }
 }
 
+
+//MARK: - Flyweight Factory
 class HouseFactory {
     var houses = [String: HouseModel]()
     init() {

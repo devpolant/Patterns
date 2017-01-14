@@ -4,7 +4,7 @@ public class AbstractFactoryTest {
     public static func test() {
         print("========== Abstract Factory ==========")
         
-        let hero = Hero(factory: VoidFactory())
+        let hero = Hero(factory: VoinFactory())
         hero.run()
         hero.hit()
     }
@@ -55,7 +55,7 @@ class ElfFactory: HeroFactory {
     }
 }
 
-class VoidFactory: HeroFactory {
+class VoinFactory: HeroFactory {
     func createWeapon() -> Weapon {
         return Sword()
     }
